@@ -36,5 +36,4 @@ PRIMARY KEY (id),
 FOREIGN KEY (subscription_id) REFERENCES subscriptions (id),
 FOREIGN KEY (product_id) REFERENCES products (id)
 );
-);
 ```
