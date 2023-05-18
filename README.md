@@ -6,7 +6,7 @@ https://www.postman.com/solar-star-898881/workspace/apis/collection/23016425-c9b
 
 
 DATABASE STRUCTURE:
-
+``` sql
 CREATE TABLE products (
 id int(11) NOT NULL AUTO_INCREMENT,
 name varchar(255) DEFAULT NULL,
@@ -34,3 +34,4 @@ product_id int(11) DEFAULT NULL,
 quantity int(11) DEFAULT NULL,
 PRIMARY KEY (id)
 );
+```
