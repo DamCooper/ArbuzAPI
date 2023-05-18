@@ -32,6 +32,9 @@ id int(11) NOT NULL AUTO_INCREMENT,
 subscription_id int(11) DEFAULT NULL,
 product_id int(11) DEFAULT NULL,
 quantity int(11) DEFAULT NULL,
-PRIMARY KEY (id)
+PRIMARY KEY (id),
+FOREIGN KEY (subscription_id) REFERENCES subscriptions (id),
+FOREIGN KEY (product_id) REFERENCES products (id)
+);
 );
 ```
